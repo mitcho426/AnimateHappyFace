@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         trayCenterWhenOpen = trayView.center
-        trayCenterWhenClosed = CGPoint(x: trayView.center.x, y: trayView.center.y + 20)
+        trayCenterWhenClosed = CGPoint(x: trayView.center.x, y: trayView.center.y + 120)
         
         // Do any additional setup after loading the view, typically from a nib.
     }
